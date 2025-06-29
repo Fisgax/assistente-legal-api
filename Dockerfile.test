@@ -1,0 +1,17 @@
+RUN python -m spacy download pt_core_news_lg
+FROM python:3.12.3
+
+WORKDIR /app
+COPY . .
+
+RUN apt-get update && \
+    apt-get install -y \
+        tesseract-ocr \
+        tesseract-ocr-por \
+        libgl1 \
+        libjpeg-dev \
+        zlib1g-dev && \
+    pip install --upgrade pip wheel && \
+    pip install -r requirements.txt
+
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "10000"]
