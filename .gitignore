@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.venv
+
+# Large files
+*.h5
+*.pt
+*.bin
+*.zip
+*.tar.gz
