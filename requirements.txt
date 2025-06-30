@@ -9,6 +9,4 @@ spacy==3.7.2
 scikit-learn==1.4.0
 numpy==1.26.0
 python-dateutil==2.8.2
-pt_core_news_lg @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_lg-3.7.0/pt_core_news_lg-3.7.0-py3-none-any.whl
-https://github.com/explosion/spacy-models/releases/download/pt_core_news_lg-3.7.0/pt_core_news_lg-3.7.0.tar.gz#egg=pt_core_news_lg
-https://github.com/explosion/spacy-models/releases/download/pt_core_news_lg-3.7.0/pt_core_news_lg-3.7.0.tar.gz#egg=pt_core_news_lg
+https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0.tar.gz#egg=pt_core_news_sm
